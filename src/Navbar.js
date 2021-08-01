@@ -1,18 +1,21 @@
-import React, { Component } from 'react'
 
-function Navbar(){
+
+const Navbar =()=>{
    
         return(
-            <div>
+          
                 <nav className="navbar">
              <h1>BLOG</h1>
              <div className="links">
              <a href="/">HOME</a>
-             <a href="/create">NEW BLOG</a>
+             <a href="/create" style={{
+                 color: 'white',
+                 background: '#f1356d',
+                 borderRadius: '8px'
+             }}>NEW BLOG</a>
              </div>
              </nav>
 
-            </div>
         )
    
 }

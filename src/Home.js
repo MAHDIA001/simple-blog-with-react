@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
-function Home(){
+const Home=()=>{
    
         return(
-            <div className="homePage">
+            <div className="home">
                 <h2>
                     HOME PAGE
                 </h2>
                 
             </div>
-        )
+        );
    
 }
 export default Home;
