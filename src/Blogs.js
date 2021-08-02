@@ -1,5 +1,5 @@
 
-const Blogs = ({blogs,title,deleteBtn})=>{
+const Blogs = ({blogs,title})=>{
 
     return(
     <div className="blogs-list">
@@ -10,7 +10,7 @@ const Blogs = ({blogs,title,deleteBtn})=>{
         
         <h2>The title of blog: {blog.title}</h2>
         <p>The author: {blog.author}</p>
-        <button onClick={()=>deleteBtn(blog.id)} deleteBtn={blog.id}>Delete!</button>
+       
 
     </div>
 

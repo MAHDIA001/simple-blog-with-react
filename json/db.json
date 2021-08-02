@@ -1,0 +1,12 @@
+{
+"blogs":[
+{"title":"My first blog",
+"body": "Since I started my business, many of my friends have asked me “Why don’t you start a blog?!” and up until a few months ago did I truly know what a “blog” was. I never clicked on blog links, I never understood WHY people wrote blogs, I just thought it was a waste of time to even look into it. WRONG I WAS. After doing much research and making friends with a few bloggers along the way, who have been so kind to offer much support and advice, I have become completely consumed with inspiration to start a blog for Horderly. I have finally realized all of the benefits that blogging can bring",
+"author":"Mario",
+"id":1},
+{"title":"Opening party!",
+    "body": "Organization will obviously be the main topic of my blog, but get ready because you will be seeing much more of the face behind Horderly (me), and a mixture of lifestyle including my favorite fashion finds, products, and other small businesses. Writing has never been a strong suite of mine and I will tell you, I am no expert on any of this. I may be a “perfectionist” but I am nowhere near perfect. I figure it will be a lot of trial and error so please bear with me on any grammar/spelling mistakes (disclaimer – I like to talk with many dashes and parentheses) and please feel free to always share your advice and communicate with me along the way! I hope to inspire you because truthfully, you all inspire me and I am SO looking forward to bringing you a more organized way of living.",
+    "author":"Luigi",
+    "id":2}
+]
+}
