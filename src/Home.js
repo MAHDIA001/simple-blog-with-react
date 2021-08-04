@@ -1,31 +1,10 @@
-import React, { useState,useEffect } from 'react'
+
 import Blogs from './Blogs'
+import useFetch from './useFetch';
 
 const Home=()=>{
-const [name,setName] = useState('mario')
-const [blogs,setBlogs] = useState(null);
-const[isPending,setIsPending] = useState(true)
-const [error,setError] =useState(null);
- useEffect(() => {
-setTimeout(()=>{
-  fetch('http://localhost:8000/blogsa')
-.then(res=>{
-  if(!res.ok){
-  throw Error('could not load the page')
- 
-  }
-  return res.json();
-})
-.then(data=>{
-  setBlogs(data);
-  setIsPending(false)
-  setError(null)
-}).catch(err=>{
-  setIsPending(false)
-  setError(err.message)
-})
-},1000)
-}, []);
+const {data:blogs,isPending,error} = useFetch('http://localhost:8000/blogs')
+
  return(
       <div className="home">
         {
